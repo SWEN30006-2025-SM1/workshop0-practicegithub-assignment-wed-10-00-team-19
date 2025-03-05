@@ -18,6 +18,9 @@ public class Calculator {
 
     public double divide(int a, int b) {
         // TODO: Implement this method
+        if (b == 0){
+            return Double.POSITIVE_INFINITY;
+        }
         return (double) a / b;
     }
 }
